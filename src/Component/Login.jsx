@@ -10,6 +10,7 @@ const Login = () => {
     const password = useRef(null)
 
     const handleClick = () => {
+        console.log('abcd');
         const message = isFormValid(email.current.value, password.current.value)
         setErrorMessage(message)
     }
